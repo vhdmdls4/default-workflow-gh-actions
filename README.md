@@ -20,7 +20,7 @@ export default defineConfig({
 
 As a fallback for any errors, also add `"homepage": "https://accountHere.github.io/repoHere"` to your `package.json`. Additionally, inside the `scripts` property of the same file, add:
 ```json
-"predeploy": "npm run build",
+"predeploy": "npm run build", // or yarn similar
 "deploy": "gh-pages -d build"
 ```
 
