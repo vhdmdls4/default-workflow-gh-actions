@@ -28,5 +28,6 @@ Also add `"homepage": "https://accountHere.github.io/repoHere"` to your `package
 ```
 
 And in the settings of the repo, config Pages section changing the source of Build and Deployment to GitHub Actions.
+![image](https://github.com/user-attachments/assets/10cf2619-1478-459c-9b8d-f7f762d13552)
 
 ---
