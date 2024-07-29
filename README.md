@@ -4,6 +4,8 @@ A boilerplate of a workflow at GitHub Actions to deploy a Vite website using Yar
 
 If you are struggling with deployment on GitHub Pages with Vite and Yarn, this guide might help you!
 
+*Remember:* this workflow is activated by every change pushs to main branch, so, be careful!
+
 Let's assume that you have already finished your project and want to "host" it on GitHub Pages. First, you should install `gh-pages` as a dev dependency:
   ```bash
   yarn add gh-pages
@@ -16,7 +18,7 @@ export default defineConfig({
   ...restOfYourConfigHere,
 });
 ```
-*Note:* If you're using the default GitHub Pages URL, it will be `https://accountHere.github.io/repoHere/`.
+*Note:* if you're using the default GitHub Pages URL, it will be `https://accountHere.github.io/repoHere/`.
 
 As a fallback for any errors, also add `"homepage": "https://accountHere.github.io/repoHere"` to your `package.json`. Additionally, inside the `scripts` property of the same file, add:
 ```json
