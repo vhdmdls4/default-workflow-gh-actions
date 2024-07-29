@@ -26,5 +26,7 @@ Also add `"homepage": "https://accountHere.github.io/repoHere"` to your `package
 "predeploy": "npm run build", // or yarn similar
 "deploy": "gh-pages -d build"
 ```
+
 And in the settings of the repo, config Pages section changing the source of Build and Deployment to GitHub Actions.
+
 ---
